@@ -1,6 +1,11 @@
 # 配置文件
 
-使用`pyproject.toml`，规范详见[setuptools文档](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html)。
+使用`pyproject.toml`。
+
+主要原因：
+
+- 有统一的、更现代化的标准。（TODO：具体PEP规范）
+- 集中在一个配置文件，方便统一维护。
 
 ## `[project]`
 
@@ -30,9 +35,10 @@ classifiers = [
 
 ## `[tool.setuptools]`
 
+规范详见[setuptools文档](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html)。
+
 ```toml
 packages = ["<your_package_dir>"]
 ```
 
 注意配置此项，避免`tests`和`exmaple`等文件夹被错误打包。
-
