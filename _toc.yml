@@ -1,4 +1,5 @@
 format: jb-book
 root: index.md
 chapters:
+  - file: general.md
   - file: web_server/README.md
