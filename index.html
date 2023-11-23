@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=c5ced968eda925caa686" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686" />
-  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=c5ced968eda925caa686"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -65,7 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Web服务器" href="web_server/README.html" />
+    <link rel="next" title="基本规则" href="general.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -161,6 +161,7 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="general.html">基本规则</a></li>
 <li class="toctree-l1"><a class="reference internal" href="web_server/README.html">Web服务器</a></li>
 </ul>
 
@@ -308,8 +309,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">项目结构</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">工具链</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">关于手册</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">手册亮点</a></li>
 </ul>
             </nav>
         </div>
@@ -323,19 +324,23 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1>简介<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
+<p>欢迎使用我们的 Python 开发者手册！这本手册旨在帮助我们的团队成员更深入地理解和秉持我们在 Python 工程中的最佳实践。我们提供了一系列切实可行的指南和最佳实践，确保我们的项目在整体上保持一致性、高效性和可维护性。</p>
 <section id="id2">
-<h2>项目结构<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
-<p>遵循“12-factors”。</p>
+<h2>关于手册<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<p>这个手册的编写是为了让开发者更深刻地理解我们在 Python 开发中的工程习惯，使其能够更有效地参与到项目中。我们的目标是提供一份资源，既适用于新手 Python 开发者，也能够为经验丰富的专业人士提供实用的参考。</p>
 </section>
 <section id="id3">
-<h2>工具链<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
+<h2>手册亮点<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p>包管理工具：建议使用 poetry 进行包管理。poetry 是一个现代化的 Python 包管理工具，可以帮助您管理项目依赖、构建和发布。它提供了简洁的命令行界面和依赖解析算法，使得包管理和发布变得更加简单和可靠。</p></li>
-<li><p>配置文件和密钥管理：建议使用 dynaconf 库代替自定义的 Config 类。dynaconf 提供了更完善的配置管理功能，支持多种配置源和格式，并提供了方便的 API 进行配置读取和更新。</p></li>
-<li><p>单元测试框架：建议使用 pytest 或 unittest 进行单元测试。您可以编写针对不同功能点的测试函数，并使用断言来验证函数的返回结果是否符合预期。另外，您还提到可以使用 LLM（Language Model-based Testing）生成测试用例，这是一个新颖的测试方法，可以使用 OpenAI 的 GPT 模型生成测试数据和断言。</p></li>
-<li><p>文档和 API 自动生成：建议使用 sphinx 来生成文档，并结合相关插件生成 API 文档。sphinx 是一个功能强大的文档生成工具，支持多种格式和主题，可以根据代码注释自动生成文档，并与 API 自动生成插件集成，生成易于阅读的 API 文档。</p></li>
-<li><p>Web 服务框架：建议使用 FastAPI 或 Flask 框架来构建 Web 服务。FastAPI 是一个高性能的异步 Web 框架，支持基于函数的路由和自动化的请求验证，非常适合构建高效的 API 服务。Flask 是一个轻量级的 Web 框架，易于上手且灵活，适合构建小型应用或原型。</p></li>
+<li><p><strong>编码规范的深度解读：</strong> 我们详细阐述了组织内部的 Python 编码规范，涵盖了命名规范、缩进风格、注释要求等方面。</p></li>
+<li><p><strong>项目结构的最佳实践：</strong> 通过探索我们推崇的项目结构，我们教会你如何有条理地组织代码文件、模块和资源，提高项目的整体可读性。</p></li>
+<li><p><strong>版本管理和工作流程优化：</strong> 学会使用 Git 进行版本管理，并深入了解我们推荐的分支策略和工作流程，从而提高协同开发的效率。</p></li>
+<li><p><strong>文档编写和注释技巧：</strong> 我们强调文档编写的重要性，并提供了如何编写清晰文档和有意义注释的实用技巧。</p></li>
+<li><p><strong>测试与持续集成：</strong> 通过提高代码质量，学会编写有效的测试，并实现持续集成的自动化流程，保障项目的稳定性。</p></li>
+<li><p><strong>安全性最佳实践：</strong> 我们分享编写安全代码的核心实践，确保应用程序的稳健性。</p></li>
+<li><p><strong>性能优化建议：</strong> 通过优化代码，提高性能，以及运用性能分析工具，确保项目在高效运行。</p></li>
 </ul>
+<p>这份手册不仅仅是一份文档，更是我们工程文化的一部分。我们鼓励你在使用手册的过程中积极提问、分享经验，并为我们的 Python 工程习惯不断提供反馈。让我们一同努力，共同打造卓越的 Python 项目！</p>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -372,11 +377,11 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="right-next"
-       href="web_server/README.html"
+       href="general.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Web服务器</p>
+        <p class="prev-next-title">基本规则</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -395,8 +400,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">项目结构</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">工具链</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">关于手册</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">手册亮点</a></li>
 </ul>
   </nav></div>
 
@@ -444,8 +449,8 @@ By 量潮科技
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=c5ced968eda925caa686"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686"></script>
+  <script src="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

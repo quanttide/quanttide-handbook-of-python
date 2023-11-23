@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=c5ced968eda925caa686" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=c5ced968eda925caa686"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -160,6 +160,7 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../general.html">基本规则</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../web_server/README.html">Web服务器</a></li>
 </ul>
 
@@ -342,10 +343,10 @@ document.write(`
 <h3><code class="docutils literal notranslate"><span class="pre">classifiers</span></code>选项<a class="headerlink" href="#classifiers" title="Permalink to this heading">#</a></h3>
 <p>示例：</p>
 <div class="highlight-toml notranslate"><div class="highlight"><pre><span></span><span class="n">classifiers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
-<span class="w">    </span><span class="s">&quot;Programming Language :: Python :: 3&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="s">&quot;Framework :: Django&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="s">&quot;License :: OSI Approved :: BSD License&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="s">&quot;Development Status :: 3 - Alpha&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Programming Language :: Python :: 3&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Framework :: Django&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;License :: OSI Approved :: BSD License&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">&quot;Development Status :: 3 - Alpha&quot;</span><span class="p">,</span>
 <span class="p">]</span>
 </pre></div>
 </div>
@@ -361,7 +362,7 @@ document.write(`
 <section id="tool-setuptools">
 <h2><code class="docutils literal notranslate"><span class="pre">[tool.setuptools]</span></code><a class="headerlink" href="#tool-setuptools" title="Permalink to this heading">#</a></h2>
 <p>规范详见<a class="reference external" href="https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html">setuptools文档</a>。</p>
-<div class="highlight-toml notranslate"><div class="highlight"><pre><span></span><span class="n">packages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s">&quot;&lt;your_package_dir&gt;&quot;</span><span class="p">]</span>
+<div class="highlight-toml notranslate"><div class="highlight"><pre><span></span><span class="n">packages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;&lt;your_package_dir&gt;&quot;</span><span class="p">]</span>
 </pre></div>
 </div>
 <p>注意配置此项，避免<code class="docutils literal notranslate"><span class="pre">tests</span></code>和<code class="docutils literal notranslate"><span class="pre">exmaple</span></code>等文件夹被错误打包。</p>
@@ -466,8 +467,8 @@ By 量潮科技
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>
