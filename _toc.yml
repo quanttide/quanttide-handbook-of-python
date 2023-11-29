@@ -1,5 +1,15 @@
 format: jb-book
 root: index.md
-chapters:
-  - file: general.md
-  - file: web_server/README.md
+parts:
+  - caption: 原则
+    chapters:
+      - file: principles/README.md
+  - caption: 客户端
+    chapters:
+      - file: sdk/README.md
+        sections: 
+          - file: sdk/api_client.md
+      - file: cli/README.md
+  - caption: 服务端
+    chapters:
+      - file: server/README.md
