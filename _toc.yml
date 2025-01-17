@@ -1,9 +1,13 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 原则
+  - caption: 绪论
     chapters:
       - file: principles/README.md
+      - file: init/README.md
+        sections:
+          - file: init/assets/README.md
+          - file: init/procedures/README.md
   - caption: 客户端
     chapters:
       - file: sdk/README.md
